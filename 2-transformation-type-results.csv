@@ -1,0 +1,31 @@
+Transformation_Type,Description,Python_num,Python_percentage,R_num,R_percentage,Sum,Sum_percentage
+create_tables_load,Create tables by loading local files,75,0.123762376,48,0.152380952,123,0.133550489
+identical_operation,An operation that does not change data tables,41,0.067656766,47,0.149206349,88,0.095548317
+create_columns_mutate,Create columns by mutating values from existing columns into a new column,65,0.107260726,23,0.073015873,88,0.095548317
+delete_rows_filter,Delete rows using filtering conditions,63,0.103960396,21,0.066666667,84,0.091205212
+delete_columns_select_keep,Delete columns by selecting columns to keep them and remove the others,44,0.072607261,20,0.063492063,64,0.069489685
+combine_rows_summarize,Combine rows by summarizing values using aggregate functions,27,0.044554455,23,0.073015873,50,0.054288817
+transform_columns_rename,Transform columns by changing column names,33,0.054455446,12,0.038095238,45,0.048859935
+transform_columns_mutate,Transform columns by mutating values from existing columns into an existing column,30,0.04950495,7,0.022222222,37,0.040173724
+transform_tables_sort,Transform tables by sorting the values in specific columns,21,0.034653465,8,0.025396825,29,0.031487514
+transform_columns_replace_na,Transform columns by replacing the missing value in the table or specific columns with a specific value,23,0.037953795,5,0.015873016,28,0.030401737
+transform_columns_replace,Transform columns by replacing a specific value in the table or specific columns with another specific value,23,0.037953795,4,0.012698413,27,0.029315961
+create_columns_create,Create columns by constructing columns manually,21,0.034653465,6,0.019047619,27,0.029315961
+combine_tables_extend,Combine tables into one table through the row-wise merger,21,0.034653465,5,0.015873016,26,0.028230185
+combine_tables_left_join,Combine tables into one table by a Left Join operation,15,0.024752475,7,0.022222222,22,0.023887079
+delete_columns_select_remove,Delete columns by selecting columns to remove them and keep the others,16,0.02640264,6,0.019047619,22,0.023887079
+transform_tables_unfold,"Transform tables by mapping key-value sets to a collection of new columns, one per unique key",9,0.014851485,8,0.025396825,17,0.018458198
+create_columns_extract,Create columns by extracting text from cells in an existing column into a new column,11,0.018151815,4,0.012698413,15,0.016286645
+delete_rows_deduplicate,Delete rows by removing duplicate rows in the table or specific columns,7,0.011551155,8,0.025396825,15,0.016286645
+combine_tables_inner_join,Combine tables into one table by an Inner Join operation,8,0.01320132,7,0.022222222,15,0.016286645
+create_tables_create,Create tables by constructing tables manually,9,0.014851485,5,0.015873016,14,0.015200869
+delete_rows_dropna,Delete rows by removing rows with missing vules in the table or specific columns,8,0.01320132,4,0.012698413,12,0.013029316
+transform_tables_rearrange,Transform tables by changing the position of columns,4,0.00660066,7,0.022222222,11,0.01194354
+delete_rows_slice_keep,Delete rows by selecting rows to keep them and remove the others,6,0.00990099,5,0.015873016,11,0.01194354
+transform_tables_fold,"Transform tables by folding columns into columns of key-value sets; selected rows map to keys, selected columns to value",4,0.00660066,7,0.022222222,11,0.01194354
+combine_tables_extend_cols,Combine tables into one table through the column-wise merger,4,0.00660066,5,0.015873016,9,0.009771987
+create_rows_create,Create rows by constructing rows manually,4,0.00660066,5,0.015873016,9,0.009771987
+separate_columns,Separate columns by spliting an existing column into multiple columns by delimiters,4,0.00660066,4,0.012698413,8,0.008686211
+transform_columns_extract,Transform columns by extracting text from cells in a column into an existing column,6,0.00990099,0,0,6,0.006514658
+combine_columns_merge,Combine columns by concatenating multiple columns into a column through a separator,0,0,4,0.012698413,4,0.004343105
+create_rows_summarize,Create rows by summarizing values using aggregate functions,4,0.00660066,0,0,4,0.004343105
